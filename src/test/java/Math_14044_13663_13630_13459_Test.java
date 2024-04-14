@@ -41,7 +41,9 @@ public class Math_14044_13663_13630_13459_Test {
 
     @Test
     public void testNegativoAdd() {
+        System.out.println("Teste Negativo de Adição com String");
         int resultado = Math_14044_13663_13630_13459.adicionar(Integer.parseInt("a"), 1);
+
     }
 
     @Test
@@ -81,6 +83,7 @@ public class Math_14044_13663_13630_13459_Test {
 
     @Test
     public void testNegativoSub() {
+        System.out.println("Teste Negativo de Subtração com String");
         int resultado = Math_14044_13663_13630_13459.subtrair(Integer.parseInt("a"), 1);
         }
 
@@ -121,6 +124,7 @@ public class Math_14044_13663_13630_13459_Test {
 
     @Test
     public void testNegativoMulti() {
+        System.out.println("Teste Negativo de Multiplicação com String");
         int resultado = Math_14044_13663_13630_13459.multiplicar(Integer.parseInt("a"), 2);
     }
 
@@ -161,12 +165,14 @@ public class Math_14044_13663_13630_13459_Test {
 
     @Test
     public void testNegativoDiv() {
+        System.out.println("Teste Negativo de Divisão por Zero ( 0 ) ");
         int resultado = Math_14044_13663_13630_13459.dividir(1, 0);
         assertEquals(0, resultado);
     }
 
     @Test
     public void testNegativoDiv2() {
+        System.out.println("Teste negativo de Divisão com String");
         int resultado = Math_14044_13663_13630_13459.dividir(Integer.parseInt("a"), 0);
     }
 
