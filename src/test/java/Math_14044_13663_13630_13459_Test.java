@@ -2,7 +2,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class Math14044136631363013459Test {
+public class Math_14044_13663_13630_13459_Test {
 
     @Test
     public void testAdicionar1() {
