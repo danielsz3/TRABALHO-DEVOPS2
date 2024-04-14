@@ -2,9 +2,7 @@
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.fail;
 
-import org.junit.jupiter.api.Test;
-
-public class Math_14044 {
+public class Math_14044_13663_13630_13459 {
 
 
     public static int adicionar(int a, int b) {
